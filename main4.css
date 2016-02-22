@@ -1,0 +1,68 @@
+html {
+  box-sizing: border-box;
+  background-color: white;
+}
+
+*, *::before, *::after {
+  box-sizing: inherit;
+}
+
+header {
+  background-color: #ffe500;
+  padding-bottom: 0.2em;
+}
+
+body {
+  margin: 0;
+}
+
+.navboxes h1 {
+  text-align: center;
+  color: #cc1465;
+  font-family: 'Sigmar One', cursive;
+  font-size: 3rem;
+  margin: 0;
+}
+
+.navboxes a {
+  display: inline-block;
+  font-family: georgia;
+  background-color: #b2a212;
+  text-align: center;
+  color: white;
+  padding: 0.5em;
+  text-decoration: none;
+  border-radius: 4px;
+  font-size: 1.125rem;
+}
+
+.navboxes ul {
+  list-style-type: none;
+}
+
+a.current {
+    background-color: #b20953;
+}
+
+img {
+  width: 100%;
+  padding: 0 1em 0 1em;
+}
+
+h2 {
+  font-family: 'Sigmar One', cursive;
+  font size: 1.875rem;
+  color: #cc1465;
+  padding-left: 1em;
+}
+
+p {
+  padding: 0 1em 0 1em;
+}
+
+footer {
+  background-color: #ffe500;
+  font-size: 0.75rem;
+  padding: 1em;
+  text-align: center;
+}
