@@ -1,6 +1,7 @@
 html {
   box-sizing: border-box;
   background-color: white;
+  color: #2f2d13;
 }
 
 *, *::before, *::after {
@@ -19,14 +20,14 @@ body {
 .navboxes h1 {
   text-align: center;
   color: #cc1465;
-  font-family: 'Sigmar One', cursive;
+  font-family: "Sigmar One", cursive;
   font-size: 3rem;
   margin: 0;
 }
 
 .navboxes a {
   display: inline-block;
-  font-family: georgia;
+  font-family: Georgia;
   background-color: #b2a212;
   text-align: center;
   color: white;
@@ -38,21 +39,26 @@ body {
 
 .navboxes ul {
   list-style-type: none;
+  text-align: center;
+  padding: 0;
 }
 
 a.current {
-    background-color: #b20953;
+  background-color: #b20953;
 }
 
 h2 {
-  font-family: 'Sigmar One', cursive;
-  font size: 1.875rem;
+  font-family: "Sigmar One", cursive;
   color: #cc1465;
   padding-left: 1em;
 }
 
-p {
+main {
   padding: 0 1em 0 1em;
+}
+
+img {
+  width: 100%;
 }
 
 footer {
